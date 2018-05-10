@@ -1,7 +1,5 @@
 //  Copyright (c) Ryan Gomba. All rights reserved.
 
-#include "Base.xcconfig"
-
 // Deployment
 DSTROOT = /tmp/$(TARGET_NAME)
 INSTALL_PATH = $(SYMROOT)/Headers
@@ -18,6 +16,3 @@ PUBLIC_HEADERS_FOLDER_PATH = ../Headers/$(TARGET_NAME)
 
 // declare inlines as extern
 GCC_INLINES_ARE_PRIVATE_EXTERN = YES
-
-// ARC
-CLANG_ENABLE_OBJC_ARC = YES
